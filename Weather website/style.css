@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./wallpaper3.webp");
+    /* background-color: #f5f5f5;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    color: #2c3e50; 
+    font-weight: bolder;
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h2 {
+    color: #34495e; 
+    font-weight: bolder;
+    text-align: left;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #ecf0f1;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.inputs {
+    text-align: center;
+    justify-content: center;
+    background-color: #e74c3c; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.inputs input[type="text"] {
+    height: 4rem;
+    width: 20rem;
+    background: #ffffff; 
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #34495e; 
+    border-radius: 5px; 
+    margin-right: 10px;
+}
+
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 6rem;
+    background: #2980b9; 
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.inputs input[type="submit"]:hover {
+    background: #3498db; 
+}
+
+.display {
+    text-align: center;
+    width: 520px;
+    color: #2c3e50; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+.wrapper {
+    margin: 0 9rem;
+    background-color: #ffffff; 
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 8px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.wrapper h3 {
+    padding: 10px 0;
+    text-align: center;
+    background: #3498db; 
+    color: #ffffff; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper p {
+    margin: 20px 50px;
+    text-align: left;
+    color: #34495e; 
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.wrapper h3 span {
+    font-size: 26px;
+    color: #ecf0f1; 
+}
+
+.wrapper p span {
+    font-size: 25px;
+    color: #e74c3c; 
+}
